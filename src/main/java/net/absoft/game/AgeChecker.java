@@ -1,7 +1,7 @@
 package net.absoft.game;
 
 public class AgeChecker {
-    private  final int MIN_AGE=18;
+    private  final int MIN_AGE=21;
     public boolean CanPlayGame(int age){
         return age>=MIN_AGE;
     }
